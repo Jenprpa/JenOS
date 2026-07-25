@@ -1,0 +1,33 @@
+{
+  "name": "jenos",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --pretty false",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "format": "prettier \"src/**/*.{ts,tsx,css}\" \"*.{js,ts,json,html}\" --write",
+    "check:format": "prettier \"src/**/*.{ts,tsx,css}\" \"*.{js,ts,json,html}\" --check"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.7",
+    "typescript": "^5.7.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.2",
+    "typescript-eslint": "^8.18.2",
+    "vitest": "^2.1.8"
+  }
+}
